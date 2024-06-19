@@ -10,11 +10,13 @@
           const title = document.createElement('h1')
           const main = document.createElement('div')
           const hr = document.createElement('hr')
+          const time = document.createElement('p')
           title.innerText = todo.title  
           main.innerText = todo.title
           container.append(title)
           container.append(main)
           container.append(hr)
+          container.append(time)
 
         }
         onload = function()
